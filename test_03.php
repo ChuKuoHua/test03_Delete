@@ -72,7 +72,7 @@
                             <td width ="10%">
                             <form method="POST" action="delete.php">
                                 <span id="client_name">                           
-                                <a class="btn btn-dark" href="delete.php?del=<?php echo $row[0] ?>" onclick="return confirm('確定要刪除嗎?');">刪除</a>
+                                <a class="btn btn-dark" href="delete.php?del=<?php echo $row[0] ?>" onclick="return confirm('Are you sure?');">Del</a>
                                                   
                                 </span>
                             </form>
