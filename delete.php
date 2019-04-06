@@ -12,7 +12,7 @@
 		$sql = "DELETE FROM client WHERE id ='$del_id'";
 		$result = mysqli_query($con,$sql);
 		$con ->close();
-		header("Location: text_03.php"); 
+		header("Location: test_03.php"); 
 	}
 
 ?>
